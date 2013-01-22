@@ -16,7 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/samsung/golden/proprietary/lib/libasound.so:obj/lib/libasound.so
+    vendor/samsung/golden/proprietary/system/lib/libasound.so:obj/lib/libasound.so
 
 # Camera
 PRODUCT_COPY_FILES += \
