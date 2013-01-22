@@ -79,7 +79,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/system/usr/share/alsa/pcm/surround41.conf:system/system/usr/share/alsa/pcm/surround41.conf \
     vendor/samsung/golden/proprietary/system/usr/share/alsa/pcm/surround50.conf:system/system/usr/share/alsa/pcm/surround50.conf \
     vendor/samsung/golden/proprietary/system/usr/share/alsa/pcm/surround51.conf:system/system/usr/share/alsa/pcm/surround51.conf \
-    vendor/samsung/golden/proprietary/system/usr/share/alsa/pcm/surround71.conf:system/system/usr/share/alsa/pcm/surround71.conf
+    vendor/samsung/golden/proprietary/system/usr/share/alsa/pcm/surround71.conf:system/system/usr/share/alsa/pcm/surround71.conf \
+    vendor/samsung/janice/proprietary/system/bin/samsungpowersoundplay:system/bin/samsungpowersoundplay
 
 # GPS Module
 PRODUCT_COPY_FILES += \
@@ -144,8 +145,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/system/lib/libsomxwmv8d.so:system/lib/libst_omxredeye_corrector.so \
     vendor/samsung/golden/proprietary/system/lib/libste_omxil-interface.so:system/lib/libst_omxredeye_detector.so
 
+# CSPSA server
+PRODUCT_COPY_FILES += \
+    vendor/samsung/janice/proprietary/system/bin/cspsa2nwm:system/bin/cspsa2nwm \
+    vendor/samsung/janice/proprietary/system/bin/cspsa-cmd:system/bin/cspsa-cmd \
+    vendor/samsung/janice/proprietary/system/bin/cspsa-server:system/bin/cspsa-server
 
-# Specific system STE system bins
+# Specific system STE bins
 PRODUCT_COPY_FILES += \
     vendor/samsung/janice/proprietary/system/bin/admsrv:system/bin/admsrv \
     vendor/samsung/janice/proprietary/system/bin/at_core:system/bin/at_core \
