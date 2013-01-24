@@ -67,8 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/system/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
     vendor/samsung/golden/proprietary/system/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
     vendor/samsung/golden/proprietary/system/lib/libste_ens_audio_samplerateconv.so:system/lib/libste_ens_audio_samplerateconv.so \
-    vendor/samsung/golden/proprietary/system/lib/libste_audio_hwctrl.so:system/lib/libste_audio_hwctrl.so
-
+    vendor/samsung/golden/proprietary/system/lib/libste_audio_hwctrl.so:system/lib/libste_audio_hwctrl.so \
     vendor/samsung/golden/proprietary/system/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
     vendor/samsung/golden/proprietary/system/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
     vendor/samsung/golden/proprietary/system/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
