@@ -24,7 +24,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/system/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/golden/proprietary/system/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/golden/proprietary/system/lib/libexifa.so:system/lib/libexifa.so \
-    vendor/samsung/golden/proprietary/system/lib/libjpega.so:system/lib/libjpega.so
+    vendor/samsung/golden/proprietary/system/lib/libjpega.so:system/lib/libjpega.so \
+    vendor/samsung/golden/proprietary/system/lib/libblt_hw.so:system/lib/libblt_hw.so
 
 # Mali400 (GPU)
 PRODUCT_COPY_FILES += \
@@ -63,6 +64,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/system/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
     vendor/samsung/golden/proprietary/system/lib/libasound.so:system/lib/libasound.so \
     vendor/samsung/golden/proprietary/system/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
+    vendor/samsung/golden/proprietary/system/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
+    vendor/samsung/golden/proprietary/system/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
+    vendor/samsung/golden/proprietary/system/lib/libste_ens_audio_samplerateconv.so:system/lib/libste_ens_audio_samplerateconv.so \
+    vendor/samsung/golden/proprietary/system/lib/libste_audio_hwctrl.so:system/lib/libste_audio_hwctrl.so
+
     vendor/samsung/golden/proprietary/system/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
     vendor/samsung/golden/proprietary/system/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
     vendor/samsung/golden/proprietary/system/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
@@ -89,7 +95,9 @@ PRODUCT_COPY_FILES += \
 # Sensors/lights modules
 PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/system/lib/hw/lights.montblanc.so:system/lib/hw/lights.montblanc.so \
-    vendor/samsung/golden/proprietary/system/lib/hw/sensors.montblanc.so:system/lib/hw/sensors.montblanc.so
+    vendor/samsung/golden/proprietary/system/lib/hw/sensors.montblanc.so:system/lib/hw/sensors.montblanc.so \
+    vendor/samsung/golden/proprietary/system/lib/libalps_sensors_hal.so:system/lib/libalps_sensors_hal.so \
+    vendor/samsung/golden/proprietary/system/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so
 
 # OMX Codecs
 PRODUCT_COPY_FILES += \
@@ -135,17 +143,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/system/lib/libsomxaace.so:system/lib/libsomxaace.so \
     vendor/samsung/golden/proprietary/system/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
     vendor/samsung/golden/proprietary/system/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
-    vendor/samsung/golden/proprietary/system/lib/libsomxcore.so:system/lib/libste_teq.so \
-    vendor/samsung/golden/proprietary/system/lib/libsomxflacd.so:system/lib/libste_tonegen.so \
-    vendor/samsung/golden/proprietary/system/lib/libsomxmp3d.so:system/lib/libste_val_src_sink.so \
-    vendor/samsung/golden/proprietary/system/lib/libsomxmp43d.so:system/lib/libste_virtual_surround.so \
-    vendor/samsung/golden/proprietary/system/lib/libsomxsr263d.so:system/lib/libst_omxarmivproc.so \
-    vendor/samsung/golden/proprietary/system/lib/libsomxwmad.so:system/lib/libst_omxface_detector.so \
-    vendor/samsung/golden/proprietary/system/lib/libsomxwmv7d.so:system/lib/libst_omxnorcos.so \
-    vendor/samsung/golden/proprietary/system/lib/libsomxwmv8d.so:system/lib/libst_omxredeye_corrector.so \
-    vendor/samsung/golden/proprietary/system/lib/libste_omxil-interface.so:system/lib/libst_omxredeye_detector.so \
+    vendor/samsung/golden/proprietary/system/lib/libsomxcore.so:system/lib/libsomxcore.so \
+    vendor/samsung/golden/proprietary/system/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
+    vendor/samsung/golden/proprietary/system/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
+    vendor/samsung/golden/proprietary/system/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
+    vendor/samsung/golden/proprietary/system/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
+    vendor/samsung/golden/proprietary/system/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
+    vendor/samsung/golden/proprietary/system/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
+    vendor/samsung/golden/proprietary/system/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
+    vendor/samsung/golden/proprietary/system/lib/libste_omxil-interface.so:system/lib/libste_omxil-interface.so \
     vendor/samsung/golden/proprietary/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/samsung/golden/proprietary/system/lib/libste_ensloader.so:system/lib/libste_ensloader.so
+    vendor/samsung/golden/proprietary/system/lib/libste_ensloader.so:system/lib/libste_ensloader.so \
+    vendor/samsung/golden/proprietary/system/lib/libtrace.so:system/lib/libtrace.so \
+    vendor/samsung/golden/proprietary/system/lib/libnmf.so:system/lib/libnmf.so \
+    vendor/samsung/golden/proprietary/system/lib/libnmfee.so:system/lib/libnmfee.so \
+    vendor/samsung/golden/proprietary/system/lib/libnmftimer.so:system/lib/libnmftimer.so
 
 # CSPSA server
 PRODUCT_COPY_FILES += \
@@ -153,9 +165,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/system/bin/cspsa-cmd:system/bin/cspsa-cmd \
     vendor/samsung/golden/proprietary/system/bin/cspsa-server:system/bin/cspsa-server
 
-# Specific system STE bins
+# Specific system STE bins&libs
 PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/system/bin/admsrv:system/bin/admsrv \
+    vendor/samsung/golden/proprietary/system/bin/msa:system/bin/msa \
     vendor/samsung/golden/proprietary/system/bin/at_core:system/bin/at_core \
     vendor/samsung/golden/proprietary/system/bin/at_distributor:system/bin/at_distributor \
     vendor/samsung/golden/proprietary/system/bin/copsdaemon:system/bin/cspsa-server \
@@ -163,7 +176,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/system/bin/modem_log_relay:system/bin/modem_log_relay \
     vendor/samsung/golden/proprietary/system/bin/stedump:system/bin/stedump \
     vendor/samsung/golden/proprietary/system/bin/ta_loader:system/bin/ta_loader \
-    vendor/samsung/golden/proprietary/system/xbin/battery_params:system/xbin/battery_params
+    vendor/samsung/golden/proprietary/system/xbin/battery_params:system/xbin/battery_params \
+    vendor/samsung/golden/proprietary/system/lib/libste_adm.so:system/lib/libste_adm.so \
+    vendor/samsung/golden/proprietary/system/lib/libstelpcutils.so:system/lib/libstelpcutils.so \
+    vendor/samsung/golden/proprietary/system/lib/libshmnetlnk.so:system/lib/libshmnetlnk.so \
+    vendor/samsung/golden/proprietary/system/lib/liblos.so:system/lib/liblos.so \
+    vendor/samsung/golden/proprietary/system/lib/libbassapp.so:system/lib/libbassapp.so
 
 
 # Misc stuff (aka idk what the hell is this used for)
