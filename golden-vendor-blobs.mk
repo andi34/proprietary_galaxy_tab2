@@ -143,9 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/system/lib/libsomxwmad.so:system/lib/libst_omxface_detector.so \
     vendor/samsung/golden/proprietary/system/lib/libsomxwmv7d.so:system/lib/libst_omxnorcos.so \
     vendor/samsung/golden/proprietary/system/lib/libsomxwmv8d.so:system/lib/libst_omxredeye_corrector.so \
-    vendor/samsung/golden/proprietary/system/lib/libste_omxil-interface.so:system/lib/libst_omxredeye_detector.so \
-    vendor/samsung/golden/proprietary/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/samsung/golden/proprietary/system/lib/libste_ensloader.so:system/lib/libste_ensloader.so
+    vendor/samsung/golden/proprietary/system/lib/libste_omxil-interface.so:system/lib/libst_omxredeye_detector.so
 
 # CSPSA server
 PRODUCT_COPY_FILES += \
