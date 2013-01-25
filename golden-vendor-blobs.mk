@@ -80,7 +80,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/system/usr/share/alsa/pcm/surround50.conf:system/system/usr/share/alsa/pcm/surround50.conf \
     vendor/samsung/golden/proprietary/system/usr/share/alsa/pcm/surround51.conf:system/system/usr/share/alsa/pcm/surround51.conf \
     vendor/samsung/golden/proprietary/system/usr/share/alsa/pcm/surround71.conf:system/system/usr/share/alsa/pcm/surround71.conf \
-    vendor/samsung/golden/proprietary/system/bin/samsungpowersoundplay:system/bin/samsungpowersoundplay
+    vendor/samsung/janice/proprietary/system/bin/samsungpowersoundplay:system/bin/samsungpowersoundplay
 
 # GPS Module
 PRODUCT_COPY_FILES += \
@@ -147,21 +147,21 @@ PRODUCT_COPY_FILES += \
 
 # CSPSA server
 PRODUCT_COPY_FILES += \
-    vendor/samsung/golden/proprietary/system/bin/cspsa2nwm:system/bin/cspsa2nwm \
-    vendor/samsung/golden/proprietary/system/bin/cspsa-cmd:system/bin/cspsa-cmd \
-    vendor/samsung/golden/proprietary/system/bin/cspsa-server:system/bin/cspsa-server
+    vendor/samsung/janice/proprietary/system/bin/cspsa2nwm:system/bin/cspsa2nwm \
+    vendor/samsung/janice/proprietary/system/bin/cspsa-cmd:system/bin/cspsa-cmd \
+    vendor/samsung/janice/proprietary/system/bin/cspsa-server:system/bin/cspsa-server
 
 # Specific system STE bins
 PRODUCT_COPY_FILES += \
-    vendor/samsung/golden/proprietary/system/bin/admsrv:system/bin/admsrv \
-    vendor/samsung/golden/proprietary/system/bin/at_core:system/bin/at_core \
-    vendor/samsung/golden/proprietary/system/bin/at_distributor:system/bin/at_distributor \
-    vendor/samsung/golden/proprietary/system/bin/copsdaemon:system/bin/cspsa-server \
-    vendor/samsung/golden/proprietary/system/bin/modem-supervisor:system/bin/modem-supervisor \
-    vendor/samsung/golden/proprietary/system/bin/modem_log_relay:system/bin/modem_log_relay \
-    vendor/samsung/golden/proprietary/system/bin/stedump:system/bin/stedump \
-    vendor/samsung/golden/proprietary/system/bin/ta_loader:system/bin/ta_loader \
-    vendor/samsung/golden/proprietary/system/xbin/battery_params:system/xbin/battery_params
+    vendor/samsung/janice/proprietary/system/bin/admsrv:system/bin/admsrv \
+    vendor/samsung/janice/proprietary/system/bin/at_core:system/bin/at_core \
+    vendor/samsung/janice/proprietary/system/bin/at_distributor:system/bin/at_distributor \
+    vendor/samsung/janice/proprietary/system/bin/copsdaemon:system/bin/cspsa-server \
+    vendor/samsung/janice/proprietary/system/bin/modem-supervisor:system/bin/modem-supervisor \
+    vendor/samsung/janice/proprietary/system/bin/modem_log_relay:system/bin/modem_log_relay \
+    vendor/samsung/janice/proprietary/system/bin/stedump:system/bin/stedump \
+    vendor/samsung/janice/proprietary/system/bin/ta_loader:system/bin/ta_loader \
+    vendor/samsung/janice/proprietary/system/xbin/battery_params:system/xbin/battery_params
 
 
 # Misc stuff (aka idk what the hell is this used for)
