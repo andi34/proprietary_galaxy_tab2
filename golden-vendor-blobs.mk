@@ -59,3 +59,10 @@ PRODUCT_COPY_FILES += \
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/system/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so
+
+# System STE binaries
+PRODUCT_COPY_FILES += \
+    vendor/samsung/golden/proprietary/system/bin/admsrv:system/bin/admsrv \
+    vendor/samsung/golden/proprietary/system/bin/cspsa-server:system/bin/cspsa-server \
+    vendor/samsung/golden/proprietary/system/bin/msa:system/bin/msa \
+    vendor/samsung/golden/proprietary/system/bin/stedump:system/bin/stedump
