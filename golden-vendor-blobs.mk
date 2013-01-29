@@ -59,7 +59,8 @@ PRODUCT_COPY_FILES += \
 # Display
 PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/system/lib/hw/hwcomposer.montblanc.so:system/lib/hw/hwcomposer.montblanc.so \
-    vendor/samsung/golden/proprietary/system/lib/hw/gralloc.montblanc.so:system/lib/hw/gralloc.montblanc.so
+    vendor/samsung/golden/proprietary/system/lib/hw/gralloc.montblanc.so:system/lib/hw/gralloc.montblanc.so \
+    vendor/samsung/golden/proprietary/system/lib/hw/copybit.montblanc.so:system/lib/hw/copybit.montblanc.so
 
 # GPS
 PRODUCT_COPY_FILES += \
