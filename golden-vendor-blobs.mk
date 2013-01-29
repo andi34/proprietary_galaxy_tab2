@@ -41,15 +41,20 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/golden/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so
 
+# Bluetooth
+PRODUCT_COPY_FILES += \
+    vendor/samsung/golden/proprietary/system/bin/bcm4334.hcd:system/bin/bcm4334.hcd
+
 # Wifi
 PRODUCT_COPY_FILES += \
-    vendor/samsung/golden/proprietary/system/bin/bcm4334.hcd:system/bin/bcm4334.hcd \
     vendor/samsung/golden/proprietary/system/etc/wifi/bcmdhd_apsta.bin_b2:system/etc/wifi/bcmdhd_apsta.bin_b2 \
     vendor/samsung/golden/proprietary/system/etc/wifi/bcmdhd_mfg.bin_b2:system/etc/wifi/bcmdhd_mfg.bin_b2 \
     vendor/samsung/golden/proprietary/system/etc/wifi/bcmdhd_p2p.bin_b2:system/etc/wifi/bcmdhd_p2p.bin_b2 \
     vendor/samsung/golden/proprietary/system/etc/wifi/bcmdhd_sta.bin_b2:system/etc/wifi/bcmdhd_sta.bin_b2 \
     vendor/samsung/golden/proprietary/system/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-    vendor/samsung/golden/proprietary/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
+    vendor/samsung/golden/proprietary/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    vendor/samsung/golden/proprietary/system/etc/wifi/nvram_mfg.txt_GPIO4:system/etc/wifi/nvram_mfg.txt_GPIO4 \
+    vendor/samsung/golden/proprietary/system/etc/wifi/nvram_net.txt_GPIO4:system/etc/wifi/nvram_net.txt_GPIO4
 
 # Display
 PRODUCT_COPY_FILES += \
