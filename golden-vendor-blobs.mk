@@ -66,6 +66,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/system/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so
 
+# Lights/sensors modules
+PRODUCT_COPY_FILES += \
+    vendor/samsung/golden/proprietary/system/lib/hw/lights.montblanc.so:system/lib/hw/lights.montblanc.so \
+    vendor/samsung/golden/proprietary/system/lib/hw/sensors.montblanc.so:system/lib/hw/sensors.montblanc.so \
+    vendor/samsung/golden/proprietary/system/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so \
+    vendor/samsung/golden/proprietary/system/lib/libalps_sensors_hal.so:system/lib/libalps_sensors_hal.so
+
+
 # System STE binaries
 PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/system/bin/admsrv:system/bin/admsrv \
