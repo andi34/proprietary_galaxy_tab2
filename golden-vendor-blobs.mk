@@ -73,10 +73,69 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/system/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so \
     vendor/samsung/golden/proprietary/system/lib/libalps_sensors_hal.so:system/lib/libalps_sensors_hal.so
 
+# OMX
+PRODUCT_COPY_FILES += \
+    vendor/samsung/golden/proprietary/system/lib/libomxil-bellagio.so:system/lib/libomxil-bellagio.so
+
+# Security Daemon Modem
+PRODUCT_COPY_FILES += \
+    vendor/samsung/golden/proprietary/system/bin/copsdaemon:system/bin/copsdaemon \
+    vendor/samsung/golden/proprietary/system/lib/libcops.so:system/lib/libcops.so \
+    vendor/samsung/golden/proprietary/system/lib/tee/8500bx_cops_ta_8500bx_secure.ssw:system/lib/tee/8500bx_cops_ta_8500bx_secure.ssw \
+    vendor/samsung/golden/proprietary/system/lib/tee/cops_ta:system/lib/tee/cops_ta \
+    vendor/samsung/golden/proprietary/system/lib/tee/custom_ta.ssw:system/lib/tee/custom_ta.ssw \
+    vendor/samsung/golden/proprietary/system/lib/tee/libbassapp_ssw:system/lib/tee/libbassapp_ssw \
+    vendor/samsung/golden/proprietary/system/lib/tee/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw
 
 # System STE binaries
 PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/system/bin/admsrv:system/bin/admsrv \
     vendor/samsung/golden/proprietary/system/bin/cspsa-server:system/bin/cspsa-server \
     vendor/samsung/golden/proprietary/system/bin/msa:system/bin/msa \
-    vendor/samsung/golden/proprietary/system/bin/stedump:system/bin/stedump
+    vendor/samsung/golden/proprietary/system/bin/stedump:system/bin/stedump \
+    vendor/samsung/golden/proprietary/system/bin/at_core:system/bin/at_core \
+    vendor/samsung/golden/proprietary/system/bin/modem-supervisor:system/bin/modem-supervisor \
+    vendor/samsung/golden/proprietary/system/bin/modem_log_relay:system/bin/modem_log_relay
+
+# System STE Libs
+PRODUCT_COPY_FILES += \
+    vendor/samsung/golden/proprietary/system/lib/libbassapp.so:system/lib/libbassapp.so \
+    vendor/samsung/golden/proprietary/system/lib/libcn.so:system/lib/libcn.so \
+    vendor/samsung/golden/proprietary/system/lib/libcspsa.so:system/lib/libcspsa.so \
+    vendor/samsung/golden/proprietary/system/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
+    vendor/samsung/golden/proprietary/system/lib/libisimessage.so:system/lib/libisimessage.so \
+    vendor/samsung/golden/proprietary/system/lib/liblos.so:system/lib/liblos.so \
+    vendor/samsung/golden/proprietary/system/lib/libmalmon.so:system/lib/libmalmon.so \
+    vendor/samsung/golden/proprietary/system/lib/libmalrf.so:system/lib/libmalrf.so \
+    vendor/samsung/golden/proprietary/system/lib/libmalutil.so:system/lib/libmalutil.so \
+    vendor/samsung/golden/proprietary/system/lib/libmmprobe.so:system/lib/libmmprobe.so \
+    vendor/samsung/golden/proprietary/system/lib/libmpl.so:system/lib/libmpl.so \
+    vendor/samsung/golden/proprietary/system/lib/libnmf.so:system/lib/libnmf.so \
+    vendor/samsung/golden/proprietary/system/lib/libnmfee.so:system/lib/libnmfee.so \
+    vendor/samsung/golden/proprietary/system/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
+    vendor/samsung/golden/proprietary/system/lib/libphonet.so:system/lib/libphonet.so \
+    vendor/samsung/golden/proprietary/system/lib/libpscc.so:system/lib/libpscc.so \
+    vendor/samsung/golden/proprietary/system/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+    vendor/samsung/golden/proprietary/system/lib/libshmnetlnk.so:system/lib/libshmnetlnk.so \
+    vendor/samsung/golden/proprietary/system/lib/libsms_server.so:system/lib/libsms_server.so \
+    vendor/samsung/golden/proprietary/system/lib/libspeech_proc_customer_plugin.so:system/lib/libspeech_proc_customer_plugin.so \
+    vendor/samsung/golden/proprietary/system/lib/libste_adm.so:system/lib/libste_adm.so \
+    vendor/samsung/golden/proprietary/system/lib/libste_audio_hwctrl.so:system/lib/libste_audio_hwctrl.so \
+    vendor/samsung/golden/proprietary/system/lib/libste_audio_mixer.so:system/lib/libste_audio_mixer.so \
+    vendor/samsung/golden/proprietary/system/lib/libste_ens_audio_common.so:system/lib/libste_ens_audio_common.so \
+    vendor/samsung/golden/proprietary/system/lib/libste_ens_audio_samplerateconv.so:system/lib/libste_ens_audio_samplerateconv.so \
+    vendor/samsung/golden/proprietary/system/lib/libste_ensloader.so:system/lib/libste_ensloader.so \
+    vendor/samsung/golden/proprietary/system/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+    vendor/samsung/golden/proprietary/system/lib/libshmnetlnk.so:system/lib/libshmnetlnk.so \
+    vendor/samsung/golden/proprietary/system/lib/libsms_server.so:system/lib/libsms_server.so \
+    vendor/samsung/golden/proprietary/system/lib/libstecom.so:system/lib/libstecom.so \
+    vendor/samsung/golden/proprietary/system/lib/libstelpcutils.so:system/lib/libstelpcutils.so \
+    vendor/samsung/golden/proprietary/system/lib/libsterc.so:system/lib/libsterc.so \
+    vendor/samsung/golden/proprietary/system/lib/libtee.so:system/lib/libtee.so \
+    vendor/samsung/golden/proprietary/system/lib/libtrace.so:system/lib/libtrace.so
+
+# System STE Configs
+PRODUCT_COPY_FILES += \
+    vendor/samsung/golden/proprietary/system/etc/adm.sqlite-ab8505_v2:system/etc/adm.sqlite-ab8505_v2 \
+    vendor/samsung/golden/proprietary/system/etc/plmn.latam.list:system/etc/plmn.latam.list \
+    vendor/samsung/golden/proprietary/system/etc/plmn.operator.list:system/etc/plmn.operator.list
