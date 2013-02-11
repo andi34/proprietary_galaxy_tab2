@@ -30,9 +30,16 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/system/lib/hw/audio.primary.DB8520H.so:system/lib/hw/audio.primary.DB8520H.so \
     vendor/samsung/golden/proprietary/system/lib/hw/audio_policy.DB8520H.so:system/lib/hw/audio_policy.DB8520H.so \
+    vendor/samsung/golden/proprietary/system/lib/hw/audio.tms.default.so:system/lib/hw/audio.tms.default.so \
     vendor/samsung/golden/proprietary/system/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
     vendor/samsung/golden/proprietary/system/lib/libasound.so:system/lib/libasound.so \
-    vendor/samsung/golden/proprietary/system/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so
+    vendor/samsung/golden/proprietary/system/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
+    vendor/samsung/golden/proprietary/system/lib/lib_SamsungRec_V01006.so:system/lib/lib_SamsungRec_V01006.so \
+    vendor/samsung/golden/proprietary/system/lib/lib_Samsung_SB_AM_for_ICS_v03007.so:system/lib/lib_Samsung_SB_AM_for_ICS_v03007.so \
+    vendor/samsung/golden/proprietary/system/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
+    vendor/samsung/golden/proprietary/system/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
+    vendor/samsung/golden/proprietary/system/lib/libhalaudioprocessing.so:system/lib/libhalaudioprocessing.so \
+    vendor/samsung/golden/proprietary/system/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so
 
 # RIL
 PRODUCT_COPY_FILES += \
