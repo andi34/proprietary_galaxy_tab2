@@ -16,7 +16,8 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/system/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/golden/proprietary/system/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
-    vendor/samsung/golden/proprietary/system/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so
+    vendor/samsung/golden/proprietary/system/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
+    vendor/samsung/golden/proprietary/system/lib/libblt_hw.so:system/lib/libblt_hw.so
 
 # Mali-400
 PRODUCT_COPY_FILES += \
@@ -82,7 +83,64 @@ PRODUCT_COPY_FILES += \
 
 # OMX
 PRODUCT_COPY_FILES += \
-    vendor/samsung/golden/proprietary/system/lib/libomxil-bellagio.so:system/lib/libomxil-bellagio.so
+    vendor/samsung/golden/proprietary/system/lib/libomxil-bellagio.so:system/lib/libomxil-bellagio.so \
+
+    vendor/samsung/golden/proprietary/system/lib/libnmftimer.so:system/lib/libnmftimer.so \
+    vendor/samsung/golden/proprietary/system/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
+    vendor/samsung/golden/proprietary/system/lib/libsomxaace.so:system/lib/libsomxaace.so \
+    vendor/samsung/golden/proprietary/system/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
+    vendor/samsung/golden/proprietary/system/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
+    vendor/samsung/golden/proprietary/system/lib/libsomxcore.so:system/lib/libsomxcore.so \
+    vendor/samsung/golden/proprietary/system/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
+    vendor/samsung/golden/proprietary/system/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
+    vendor/samsung/golden/proprietary/system/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
+    vendor/samsung/golden/proprietary/system/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
+    vendor/samsung/golden/proprietary/system/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
+    vendor/samsung/golden/proprietary/system/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
+    vendor/samsung/golden/proprietary/system/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
+    vendor/samsung/golden/proprietary/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    vendor/samsung/golden/proprietary/system/lib/libste_ens_image_tuningdatabase.so:system/lib/libste_ens_image_tuningdatabase.so \
+    vendor/samsung/golden/proprietary/system/lib/libste_ens_video_common.so:system/lib/libste_ens_video_common.so \
+    vendor/samsung/golden/proprietary/system/lib/libste_ext_ens_image_common.so:system/lib/libste_ext_ens_image_common.so \
+    vendor/samsung/golden/proprietary/system/lib/libste_omxil-interface.so:system/lib/libste_omxil-interface.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libspeech_processing.so:system/lib/ste_omxcomponents/libspeech_processing.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_alsasink.so:system/lib/ste_omxcomponents/libste_alsasink.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_alsasource.so:system/lib/ste_omxcomponents/libste_alsasource.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_audio_mixer.so:system/lib/ste_omxcomponents/libste_audio_mixer.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_audio_source_sink.so:system/lib/ste_omxcomponents/libste_audio_source_sink.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_comfort_noise.so:system/lib/ste_omxcomponents/libste_comfort_noise.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_cscall.so:system/lib/ste_omxcomponents/libste_cscall.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_dec_amr.so:system/lib/ste_omxcomponents/libste_dec_amr.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_dec_amrwb.so:system/lib/ste_omxcomponents/libste_dec_amrwb.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_dec_h264.so:system/lib/ste_omxcomponents/libste_dec_h264.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_dec_jpeg.so:system/lib/ste_omxcomponents/libste_dec_jpeg.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_dec_mpeg2.so:system/lib/ste_omxcomponents/libste_dec_mpeg2.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_dec_mpeg4.so:system/lib/ste_omxcomponents/libste_dec_mpeg4.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_dec_vc1.so:system/lib/ste_omxcomponents/libste_dec_vc1.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_drc.so:system/lib/ste_omxcomponents/libste_drc.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_enc_aac.so:system/lib/ste_omxcomponents/libste_enc_aac.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_enc_amr.so:system/lib/ste_omxcomponents/libste_enc_amr.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_enc_amrwb.so:system/lib/ste_omxcomponents/libste_enc_amrwb.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_enc_h264.so:system/lib/ste_omxcomponents/libste_enc_h264.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_enc_jpeg.so:system/lib/ste_omxcomponents/libste_enc_jpeg.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_enc_mpeg4.so:system/lib/ste_omxcomponents/libste_enc_mpeg4.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_exif_mixer.so:system/lib/ste_omxcomponents/libste_exif_mixer.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_ext_camera.so:system/lib/ste_omxcomponents/libste_ext_camera.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_mdrc.so:system/lib/ste_omxcomponents/libste_mdrc.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_noise_reduction.so:system/lib/ste_omxcomponents/libste_noise_reduction.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_pcm_splitter.so:system/lib/ste_omxcomponents/libste_pcm_splitter.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_speech_proc.so:system/lib/ste_omxcomponents/libste_speech_proc.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_spl.so:system/lib/ste_omxcomponents/libste_spl.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_teq.so:system/lib/ste_omxcomponents/libste_teq.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_tonegen.so:system/lib/ste_omxcomponents/libste_tonegen.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_val_src_sink.so:system/lib/ste_omxcomponents/libste_val_src_sink.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libste_virtual_surround.so:system/lib/ste_omxcomponents/libste_virtual_surround.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libst_omxarmivproc.so:system/lib/ste_omxcomponents/libst_omxarmivproc.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libst_omxface_detector.so:system/lib/ste_omxcomponents/libst_omxface_detector.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libst_omxnorcos.so:system/lib/ste_omxcomponents/libst_omxnorcos.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libst_omxredeye_corrector.so:system/lib/ste_omxcomponents/libst_omxredeye_corrector.so \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libst_omxredeye_detector.so:system/lib/ste_omxcomponents/libst_omxredeye_detector \
+    vendor/samsung/golden/proprietary/system/lib/ste_omxcomponents/libst_omxsplitter.so:system/lib/ste_omxcomponents/libst_omxsplitter.so
 
 # Security Daemon Modem
 PRODUCT_COPY_FILES += \
