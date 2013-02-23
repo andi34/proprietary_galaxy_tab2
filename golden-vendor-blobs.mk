@@ -40,7 +40,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
     vendor/samsung/golden/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
     vendor/samsung/golden/proprietary/lib/libhalaudioprocessing.so:system/lib/libhalaudioprocessing.so \
-    vendor/samsung/golden/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so
+    vendor/samsung/golden/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
+    vendor/samsung/golden/proprietary/etc/Volume.db:system/etc/Volume.db
 
 # RIL
 PRODUCT_COPY_FILES += \
@@ -79,7 +80,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/lib/hw/lights.montblanc.so:system/lib/hw/lights.montblanc.so \
     vendor/samsung/golden/proprietary/lib/hw/sensors.montblanc.so:system/lib/hw/sensors.montblanc.so \
     vendor/samsung/golden/proprietary/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so \
-    vendor/samsung/golden/proprietary/lib/libalps_sensors_hal.so:system/lib/libalps_sensors_hal.so
+    vendor/samsung/golden/proprietary/lib/libalps_sensors_hal.so:system/lib/libalps_sensors_hal.so \
+    vendor/samsung/golden/proprietary/etc/calib.dat:system/etc/calib.dat \
+    vendor/samsung/golden/proprietary/etc/param.dat:system/etc/param.dat
 
 # Security Daemon Modem
 PRODUCT_COPY_FILES += \
