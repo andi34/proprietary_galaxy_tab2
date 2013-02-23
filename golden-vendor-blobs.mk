@@ -302,7 +302,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/mpeg4dec/mpc/api/end_algo.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/mpeg4dec/mpc/api/end_algo.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/mpeg4dec/arm_nmf/api/Copy.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/mpeg4dec/arm_nmf/api/Copy.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/requestmemory.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/requestmemory.elf4nmf \
-    vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/mp3/nmfil/decoder/mp3_bitstreaminfo.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/mp3/nmfil/decoder/mp3_bitstreaminfo.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/ext_ispctl/api/alert.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/ext_ispctl/api/alert.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/interruptdfc.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/interruptdfc.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/ispctl/api/alert.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/ispctl/api/alert.elf4nmf \
@@ -367,13 +366,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/msp_dma_controller.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiocodec/mpc/msp_dma_controller.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/misc/controller.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/misc/controller.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/misc/synchronisation.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/misc/synchronisation.elf4nmf \
-    vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/equalizer/effect/libequalizer.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/equalizer/effect/libequalizer.elf4nmf \
-    vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/equalizer/nmfil/effect.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/equalizer/nmfil/effect.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/ext_grabctl.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/ext_grabctl.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mixer/nmfil/wrapper.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mixer/nmfil/wrapper.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mixer/effect/libmixer.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mixer/effect/libmixer.elf4nmf \
-    vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mp3/nmfil/decoder.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mp3/nmfil/decoder.elf4nmf \
-    vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/mp3/codec/libmp3decode.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/mp3/codec/libmp3decode.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libaudiotables.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libaudiotables.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libcrc.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libcrc.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libsbrqmf.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/audiolibs/libsbrqmf.elf4nmf \
@@ -417,7 +412,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/jpegenc.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/jpegenc.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/samplerateconv/nmfil/wrapper.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/samplerateconv/nmfil/wrapper.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/samplerateconv/effect/libresampling.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/samplerateconv/effect/libresampling.elf4nmf \
-    vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/equalizer/nmfil/effect/configure.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/equalizer/nmfil/effect/configure.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/memgrabctl/api/configure.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/memgrabctl/api/configure.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/common/configure.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/common/configure.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/h264enc/mpc/api/mpc_trace_init.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/h264enc/mpc/api/mpc_trace_init.elf4nmf \
@@ -457,7 +451,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/misc/controller/configure.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/misc/controller/configure.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/misc/samplesplayed.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/misc/samplesplayed.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/mixer/nmfil/wrapper/configure.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/mixer/nmfil/wrapper/configure.elf4nmf \
-    vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/mp3/nmfil/decoder/configure.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/mp3/nmfil/decoder/configure.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/audiolibs/common/dummy.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/audiolibs/common/dummy.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/audiolibs/libmalloc/init.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/audiolibs/libmalloc/init.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/hst/common/pcmsettings.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/hst/common/pcmsettings.elf4nmf \
@@ -489,10 +482,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/pcmsettings.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/pcmsettings.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/samplerateconv/nmfil/wrapper/configure.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/samplerateconv/nmfil/wrapper/configure.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/fsminit.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/fsminit.elf4nmf \
-    vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/binary_splitter/nmfil/wrapper/configure.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/binary_splitter/nmfil/wrapper/configure.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/malloc/setheap.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/malloc/setheap.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/grabctl.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/grabctl.elf4nmf \
-    vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/binary_splitter/nmfil/wrapper.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/binary_splitter/nmfil/wrapper.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/ext_ispctl.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/ext_ispctl.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/ext_grab.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/ext_grab.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/nmf/mpc/shared_bufout.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/nmf/mpc/shared_bufout.elf4nmf \
