@@ -155,6 +155,35 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/etc/plmn.latam.list:system/etc/plmn.latam.list \
     vendor/samsung/golden/proprietary/etc/plmn.operator.list:system/etc/plmn.operator.list
 
+# Firmware
+PRODUCT_COPY_FILES += \
+    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_0200_0000_patch.fw:system/etc/firmware/CG29XX_0200_0000_patch.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_0200_0000_settings.fw:system/etc/firmware/CG29XX_0200_0000_settings.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_0700_0011_patch.fw:system/etc/firmware/CG29XX_0700_0011_patch.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_0700_0011_settings.fw:system/etc/firmware/CG29XX_0700_0011_settings.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_0700_0013_patch.fw:system/etc/firmware/CG29XX_0700_0013_patch.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_0700_0013_settings.fw:system/etc/firmware/CG29XX_0700_0013_settings.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1004_0411_patch.fw:system/etc/firmware/CG29XX_1004_0411_patch.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1004_0411_settings.fw:system/etc/firmware/CG29XX_1004_0411_settings.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1005_0C11_patch.fw:system/etc/firmware/CG29XX_1005_0C11_patch.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1005_0C11_settings.fw:system/etc/firmware/CG29XX_1005_0C11_settings.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1005_0411_patch.fw:system/etc/firmware/CG29XX_1005_0411_patch.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1005_0411_settings.fw:system/etc/firmware/CG29XX_1005_0411_settings.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1005_0811_patch.fw:system/etc/firmware/CG29XX_1005_0811_patch.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1005_0811_settings.fw:system/etc/firmware/CG29XX_1005_0811_settings.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1805_0C11_patch.fw:system/etc/firmware/CG29XX_1805_0C11_patch.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1805_0C11_settings.fw:system/etc/firmware/CG29XX_1805_0C11_settings.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1805_0411_patch.fw:system/etc/firmware/CG29XX_1805_0411_patch.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1805_0411_settings.fw:system/etc/firmware/CG29XX_1805_0411_settings.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1805_0811_patch.fw:system/etc/firmware/CG29XX_1805_0811_patch.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1805_0811_settings.fw:system/etc/firmware/CG29XX_1805_0811_settings.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1806_1021_patch.fw:system/etc/firmware/CG29XX_1806_1021_patch.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1806_1021_settings.fw:system/etc/firmware/CG29XX_1806_1021_settings.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/STLC2690_0603_0014_patch.fw:system/etc/firmware/STLC2690_0603_0014_patch.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/STLC2690_0603_0014_settings.fw:system/etc/firmware/STLC2690_0603_0014_settings.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/STLC2690_0604_001D_patch.fw:system/etc/firmware/STLC2690_0604_001D_patch.fw \
+    vendor/samsung/golden/proprietary/etc/firmware/STLC2690_0604_001D_settings.fw:system/etc/firmware/STLC2690_0604_001D_settings.fw
+
 # OMX
 PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/lib/libomxil-bellagio.so:system/lib/libomxil-bellagio.so \
@@ -500,3 +529,86 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/pcmdump/complete.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/pcmdump/complete.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/pcmdump.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/pcmdump.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/preload_video.txt:system/usr/share/nmf/repository/mmdsp_8500_v2/preload_video.txt
+
+# Alsa config
+PRODUCT_COPY_FILES += \
+    vendor/samsung/golden/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
+    vendor/samsung/golden/proprietary/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
+    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
+    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/default.conf:system/usr/share/alsa/pcm/default.conf \
+    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/dmix.conf:system/usr/share/alsa/pcm/dmix.conf \
+    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/dpl.conf:system/usr/share/alsa/pcm/dpl.conf \
+    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/dsnoop.conf:system/usr/share/alsa/pcm/dsnoop.conf \
+    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/front.conf:system/usr/share/alsa/pcm/front.conf \
+    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/iec958.conf:system/usr/share/alsa/pcm/iec958.conf \
+    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/modem.conf:system/usr/share/alsa/pcm/modem.conf \
+    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/rear.conf:system/usr/share/alsa/pcm/rear.conf \
+    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/side.conf:system/usr/share/alsa/pcm/side.conf \
+    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/surround40.conf:system/usr/share/alsa/pcm/surround40.conf \
+    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/surround41.conf:system/usr/share/alsa/pcm/surround41.conf \
+    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
+    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
+    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf
+
+# LVVEFS config
+PRODUCT_COPY_FILES += \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/LVVEFS_Rx_Configuration.txt:system/etc/LVVEFS_tuning_parameters/LVVEFS_Rx_Configuration.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/LVVEFS_Tx_Configuration.txt:system/etc/LVVEFS_tuning_parameters/LVVEFS_Tx_Configuration.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_WB.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_WB.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_WB.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_WB.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECOFF.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECOFF.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECOFF_VOIP.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECOFF_VOIP.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECOFF_VT.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECOFF_VT.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECOFF_WB.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECOFF_WB.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECON.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECON.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECON_VOIP.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECON_VOIP.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECON_VT.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECON_VT.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECON_WB.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECON_WB.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_EXTRA.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_EXTRA.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_EXTRA_WB.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_EXTRA_WB.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_VOIP.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_VOIP.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_VT.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_VT.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_WB.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_WB.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADPHONE.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADPHONE.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADPHONE_VOIP.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADPHONE_VOIP.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADPHONE_VT.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADPHONE_VT.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADPHONE_WB.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADPHONE_WB.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADSET.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADSET.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADSET_VOIP.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADSET_VOIP.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADSET_VT.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADSET_VT.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADSET_WB.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADSET_WB.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_LOOPBACK.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_LOOPBACK.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_EXTRA.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_EXTRA.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_EXTRA_WB.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_EXTRA_WB.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_VOIP.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_VOIP.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_VT.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_VT.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECOFF.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECOFF.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECOFF_VOIP.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECOFF_VOIP.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECOFF_VT.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECOFF_VT.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECOFF_WB.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECOFF_WB.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECON.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECON.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECON_VOIP.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECON_VOIP.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECON_VT.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECON_VT.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECON_WB.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECON_WB.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_EXTRA.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_EXTRA.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_EXTRA_WB.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_EXTRA_WB.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_VOIP.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_VOIP.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_VT.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_VT.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_WB.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_WB.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADPHONE.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADPHONE.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADPHONE_VOIP.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADPHONE_VOIP.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADPHONE_VT.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADPHONE_VT.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADPHONE_WB.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADPHONE_WB.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADSET.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADSET.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADSET_VOIP.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADSET_VOIP.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADSET_VT.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADSET_VT.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADSET_WB.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADSET_WB.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_LOOPBACK.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_LOOPBACK.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_EXTRA.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_EXTRA.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_EXTRA_WB.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_EXTRA_WB.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VOIP.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VOIP.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VT.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VT.txt \
