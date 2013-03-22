@@ -14,8 +14,8 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/samsung/janice/proprietary/system/lib/libril.so:obj/lib/libril.so \
-    vendor/samsung/janice/proprietary/system/lib/libsecril-client.so:obj/lib/libsecril-client.so
+    vendor/samsung/golden/proprietary/lib/libril.so:obj/lib/libril.so \
+    vendor/samsung/golden/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so
 
 # Camera
 PRODUCT_COPY_FILES += \
