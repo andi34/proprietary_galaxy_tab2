@@ -19,8 +19,6 @@ PRODUCT_COPY_FILES := \
 
 # Camera
 PRODUCT_COPY_FILES += \
-    vendor/samsung/golden/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-    vendor/samsung/golden/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/golden/proprietary/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
     vendor/samsung/golden/proprietary/lib/libblt_hw.so:system/lib/libblt_hw.so \
     vendor/samsung/golden/proprietary/usr/share/camera/config_file/aptina_mt9v113.dat:system/usr/share/camera/config_file/aptina_mt9v113.dat \
