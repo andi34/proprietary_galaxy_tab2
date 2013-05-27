@@ -19,8 +19,6 @@ PRODUCT_COPY_FILES := \
 
 # Camera
 PRODUCT_COPY_FILES += \
-    vendor/samsung/golden/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-    vendor/samsung/golden/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/golden/proprietary/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
     vendor/samsung/golden/proprietary/lib/libblt_hw.so:system/lib/libblt_hw.so \
     vendor/samsung/golden/proprietary/usr/share/camera/config_file/aptina_mt9v113.dat:system/usr/share/camera/config_file/aptina_mt9v113.dat \
@@ -194,18 +192,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/lib/libomxil-bellagio.so:system/lib/libomxil-bellagio.so \
     vendor/samsung/golden/proprietary/lib/libnmftimer.so:system/lib/libnmftimer.so \
-    vendor/samsung/golden/proprietary/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
-    vendor/samsung/golden/proprietary/lib/libsomxaace.so:system/lib/libsomxaace.so \
-    vendor/samsung/golden/proprietary/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
-    vendor/samsung/golden/proprietary/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
-    vendor/samsung/golden/proprietary/lib/libsomxcore.so:system/lib/libsomxcore.so \
-    vendor/samsung/golden/proprietary/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
-    vendor/samsung/golden/proprietary/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
-    vendor/samsung/golden/proprietary/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
-    vendor/samsung/golden/proprietary/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
-    vendor/samsung/golden/proprietary/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
-    vendor/samsung/golden/proprietary/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
-    vendor/samsung/golden/proprietary/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
     vendor/samsung/golden/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/samsung/golden/proprietary/lib/libste_ens_image_tuningdatabase.so:system/lib/libste_ens_image_tuningdatabase.so \
     vendor/samsung/golden/proprietary/lib/libste_ens_video_common.so:system/lib/libste_ens_video_common.so \
@@ -617,4 +603,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_EXTRA.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_EXTRA.txt \
     vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_EXTRA_WB.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_EXTRA_WB.txt \
     vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VOIP.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VOIP.txt \
-    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VT.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VT.txt \
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VT.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VT.txt
