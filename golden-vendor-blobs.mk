@@ -159,35 +159,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/etc/plmn.latam.list:system/etc/plmn.latam.list \
     vendor/samsung/golden/proprietary/etc/plmn.operator.list:system/etc/plmn.operator.list
 
-# Firmware
-PRODUCT_COPY_FILES += \
-    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_0200_0000_patch.fw:system/etc/firmware/CG29XX_0200_0000_patch.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_0200_0000_settings.fw:system/etc/firmware/CG29XX_0200_0000_settings.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_0700_0011_patch.fw:system/etc/firmware/CG29XX_0700_0011_patch.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_0700_0011_settings.fw:system/etc/firmware/CG29XX_0700_0011_settings.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_0700_0013_patch.fw:system/etc/firmware/CG29XX_0700_0013_patch.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_0700_0013_settings.fw:system/etc/firmware/CG29XX_0700_0013_settings.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1004_0411_patch.fw:system/etc/firmware/CG29XX_1004_0411_patch.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1004_0411_settings.fw:system/etc/firmware/CG29XX_1004_0411_settings.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1005_0C11_patch.fw:system/etc/firmware/CG29XX_1005_0C11_patch.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1005_0C11_settings.fw:system/etc/firmware/CG29XX_1005_0C11_settings.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1005_0411_patch.fw:system/etc/firmware/CG29XX_1005_0411_patch.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1005_0411_settings.fw:system/etc/firmware/CG29XX_1005_0411_settings.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1005_0811_patch.fw:system/etc/firmware/CG29XX_1005_0811_patch.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1005_0811_settings.fw:system/etc/firmware/CG29XX_1005_0811_settings.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1805_0C11_patch.fw:system/etc/firmware/CG29XX_1805_0C11_patch.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1805_0C11_settings.fw:system/etc/firmware/CG29XX_1805_0C11_settings.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1805_0411_patch.fw:system/etc/firmware/CG29XX_1805_0411_patch.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1805_0411_settings.fw:system/etc/firmware/CG29XX_1805_0411_settings.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1805_0811_patch.fw:system/etc/firmware/CG29XX_1805_0811_patch.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1805_0811_settings.fw:system/etc/firmware/CG29XX_1805_0811_settings.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1806_1021_patch.fw:system/etc/firmware/CG29XX_1806_1021_patch.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/CG29XX_1806_1021_settings.fw:system/etc/firmware/CG29XX_1806_1021_settings.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/STLC2690_0603_0014_patch.fw:system/etc/firmware/STLC2690_0603_0014_patch.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/STLC2690_0603_0014_settings.fw:system/etc/firmware/STLC2690_0603_0014_settings.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/STLC2690_0604_001D_patch.fw:system/etc/firmware/STLC2690_0604_001D_patch.fw \
-    vendor/samsung/golden/proprietary/etc/firmware/STLC2690_0604_001D_settings.fw:system/etc/firmware/STLC2690_0604_001D_settings.fw
-
 # OMX
 PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/lib/libomxil-bellagio.so:system/lib/libomxil-bellagio.so \
