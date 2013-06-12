@@ -88,7 +88,6 @@ PRODUCT_COPY_FILES += \
 
 # Lights/sensors modules
 PRODUCT_COPY_FILES += \
-    vendor/samsung/golden/proprietary/lib/hw/lights.montblanc.so:system/lib/hw/lights.montblanc.so \
     vendor/samsung/golden/proprietary/lib/hw/sensors.montblanc.so:system/lib/hw/sensors.montblanc.so \
     vendor/samsung/golden/proprietary/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so \
     vendor/samsung/golden/proprietary/lib/libalps_sensors_hal.so:system/lib/libalps_sensors_hal.so \
