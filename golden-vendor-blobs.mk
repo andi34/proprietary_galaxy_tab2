@@ -110,7 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/bin/at_distributor:system/bin/at_distributor \
     vendor/samsung/golden/proprietary/bin/modem-supervisor:system/bin/modem-supervisor \
     vendor/samsung/golden/proprietary/bin/modem_log_relay:system/bin/modem_log_relay \
-    vendor/samsung/golden/proprietary/xbin/battery_params:system/bin/battery_params
+    vendor/samsung/golden/proprietary/xbin/battery_params:system/xbin/battery_params
 
 # System STE Libs
 PRODUCT_COPY_FILES += \
