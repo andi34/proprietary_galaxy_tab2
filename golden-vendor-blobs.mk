@@ -12,20 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Prebuilt libraries that are needed to build open-source libraries
-PRODUCT_COPY_FILES := \
-    vendor/samsung/golden/proprietary/lib/libril.so:obj/lib/libril.so \
-    vendor/samsung/golden/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so
-
 # Camera
 PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
-    vendor/samsung/golden/proprietary/lib/libblt_hw.so:system/lib/libblt_hw.so \
     vendor/samsung/golden/proprietary/usr/share/camera/config_file/aptina_mt9v113.dat:system/usr/share/camera/config_file/aptina_mt9v113.dat \
-    vendor/samsung/golden/proprietary/usr/share/camera/config_file/omnivision_ov5640_pri_30fps.dat:system/usr/share/camera/config_file/omnivision_ov5640_pri_30fps.dat \
-    vendor/samsung/golden/proprietary/usr/share/camera/config_file/omnivision_ov5640_sec.dat:system/usr/share/camera/config_file/omnivision_ov5640_sec.dat \
-    vendor/samsung/golden/proprietary/usr/share/camera/config_file/sony_isx006.dat:system/usr/share/camera/config_file/sony_isx006.dat \
-    vendor/samsung/golden/proprietary/usr/share/camera/config_file/omnivision_ov5640_pri.dat:system/usr/share/camera/config_file/omnivision_ov5640_pri.dat \
     vendor/samsung/golden/proprietary/usr/share/camera/config_file/samsung_s5k4ecgx_golden.dat:system/usr/share/camera/config_file/samsung_s5k4ecgx_golden.dat \
     vendor/samsung/golden/proprietary/usr/share/camera/config_file/siliconfile_sr030pc50.dat:system/usr/share/camera/config_file/siliconfile_sr030pc50.dat
 
