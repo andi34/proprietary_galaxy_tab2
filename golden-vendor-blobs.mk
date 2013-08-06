@@ -95,13 +95,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/bin/admsrv:system/bin/admsrv \
     vendor/samsung/golden/proprietary/bin/cspsa-server:system/bin/cspsa-server \
     vendor/samsung/golden/proprietary/bin/msa:system/bin/msa \
-    vendor/samsung/golden/proprietary/bin/stedump:system/bin/stedump \
     vendor/samsung/golden/proprietary/bin/at_core:system/bin/at_core \
     vendor/samsung/golden/proprietary/bin/at_distributor:system/bin/at_distributor \
-    vendor/samsung/golden/proprietary/bin/ta_loader:system/bin/ta_loader \
     vendor/samsung/golden/proprietary/bin/modem-supervisor:system/bin/modem-supervisor \
-    vendor/samsung/golden/proprietary/bin/modem_log_relay:system/bin/modem_log_relay \
-    vendor/samsung/golden/proprietary/xbin/battery_params:system/xbin/battery_params
+    vendor/samsung/golden/proprietary/bin/modem_log_relay:system/bin/modem_log_relay
 
 # System STE Libs
 PRODUCT_COPY_FILES += \
