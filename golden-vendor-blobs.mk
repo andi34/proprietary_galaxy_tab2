@@ -145,7 +145,6 @@ PRODUCT_COPY_FILES += \
 
 # OMX
 PRODUCT_COPY_FILES += \
-    vendor/samsung/golden/proprietary/lib/libomxil-bellagio.so:system/lib/libomxil-bellagio.so \
     vendor/samsung/golden/proprietary/lib/libnmftimer.so:system/lib/libnmftimer.so \
     vendor/samsung/golden/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/samsung/golden/proprietary/lib/libste_ens_image_tuningdatabase.so:system/lib/libste_ens_image_tuningdatabase.so \
