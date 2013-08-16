@@ -125,7 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/lib/libspeech_proc_customer_plugin.so:system/lib/libspeech_proc_customer_plugin.so \
     vendor/samsung/golden/proprietary/lib/libste_adm.so:system/lib/libste_adm.so \
     vendor/samsung/golden/proprietary/lib/libste_audio_hwctrl.so:system/lib/libste_audio_hwctrl.so \
-    vendor/samsung/golden/proprietary/lib/libste_audio_mixer.so:system/lib/libste_audio_mixer.so \
     vendor/samsung/golden/proprietary/lib/libste_ens_audio_common.so:system/lib/libste_ens_audio_common.so \
     vendor/samsung/golden/proprietary/lib/libste_ens_audio_samplerateconv.so:system/lib/libste_ens_audio_samplerateconv.so \
     vendor/samsung/golden/proprietary/lib/libste_ensloader.so:system/lib/libste_ensloader.so \
