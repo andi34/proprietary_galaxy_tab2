@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_COPY_FILES += \
-    vendor/samsung/golden/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/golden/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/golden/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/golden/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so
@@ -96,13 +95,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/bin/cspsa-server:system/bin/cspsa-server \
     vendor/samsung/golden/proprietary/bin/msa:system/bin/msa \
     vendor/samsung/golden/proprietary/bin/at_core:system/bin/at_core \
-    vendor/samsung/golden/proprietary/bin/at_distributor:system/bin/at_distributor \
     vendor/samsung/golden/proprietary/bin/modem-supervisor:system/bin/modem-supervisor \
     vendor/samsung/golden/proprietary/bin/modem_log_relay:system/bin/modem_log_relay
 
 # System STE Libs
 PRODUCT_COPY_FILES += \
-    vendor/samsung/golden/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/golden/proprietary/lib/libbassapp.so:system/lib/libbassapp.so \
     vendor/samsung/golden/proprietary/lib/libcn.so:system/lib/libcn.so \
     vendor/samsung/golden/proprietary/lib/libcspsa.so:system/lib/libcspsa.so \
@@ -125,6 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/lib/libspeech_proc_customer_plugin.so:system/lib/libspeech_proc_customer_plugin.so \
     vendor/samsung/golden/proprietary/lib/libste_adm.so:system/lib/libste_adm.so \
     vendor/samsung/golden/proprietary/lib/libste_audio_hwctrl.so:system/lib/libste_audio_hwctrl.so \
+    vendor/samsung/golden/proprietary/lib/libste_audio_mixer.so:system/lib/libste_audio_mixer.so \
     vendor/samsung/golden/proprietary/lib/libste_ens_audio_common.so:system/lib/libste_ens_audio_common.so \
     vendor/samsung/golden/proprietary/lib/libste_ens_audio_samplerateconv.so:system/lib/libste_ens_audio_samplerateconv.so \
     vendor/samsung/golden/proprietary/lib/libste_ensloader.so:system/lib/libste_ensloader.so \
@@ -557,4 +555,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_EXTRA.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_EXTRA.txt \
     vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_EXTRA_WB.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_EXTRA_WB.txt \
     vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VOIP.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VOIP.txt \
-    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VT.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VT.txt
+    vendor/samsung/golden/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VT.txt:system/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VT.txt \
