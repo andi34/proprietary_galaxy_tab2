@@ -95,11 +95,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/bin/cspsa-server:system/bin/cspsa-server \
     vendor/samsung/golden/proprietary/bin/msa:system/bin/msa \
     vendor/samsung/golden/proprietary/bin/at_core:system/bin/at_core \
+    vendor/samsung/golden/proprietary/bin/at_distributor:system/bin/at_distributor \
     vendor/samsung/golden/proprietary/bin/modem-supervisor:system/bin/modem-supervisor \
     vendor/samsung/golden/proprietary/bin/modem_log_relay:system/bin/modem_log_relay
 
 # System STE Libs
 PRODUCT_COPY_FILES += \
+    vendor/samsung/golden/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/golden/proprietary/lib/libbassapp.so:system/lib/libbassapp.so \
     vendor/samsung/golden/proprietary/lib/libcn.so:system/lib/libcn.so \
     vendor/samsung/golden/proprietary/lib/libcspsa.so:system/lib/libcspsa.so \
