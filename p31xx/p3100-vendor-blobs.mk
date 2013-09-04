@@ -18,6 +18,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/p31xx/p3100/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/p31xx/p3100/system/lib/libsecril-client.so:system/lib/libsecril-client.so
-
-PRODUCT_COPY_FILES += \
-	vendor/samsung/p31xx/p3100/system/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so

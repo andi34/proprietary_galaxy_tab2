@@ -20,6 +20,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/p31xx/p3110/system/lib/libril.so:system/lib/libril.so \
     vendor/samsung/p31xx/p3110/system/lib/libsecril-client.so:system/lib/libsecril-client.so
-
-PRODUCT_COPY_FILES += \
-	vendor/samsung/p31xx/p3110/system/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so
