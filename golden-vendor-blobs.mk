@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/lib/hw/audio_policy.DB8520H.so:system/lib/hw/audio_policy.DB8520H.so \
     vendor/samsung/golden/proprietary/lib/hw/audio.tms.default.so:system/lib/hw/audio.tms.default.so \
     vendor/samsung/golden/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
-    vendor/samsung/golden/proprietary/lib/libasound.so:system/lib/libasound.so \
     vendor/samsung/golden/proprietary/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
     vendor/samsung/golden/proprietary/lib/lib_SamsungRec_V01006.so:system/lib/lib_SamsungRec_V01006.so \
     vendor/samsung/golden/proprietary/lib/lib_Samsung_SB_AM_for_ICS_v03007.so:system/lib/lib_Samsung_SB_AM_for_ICS_v03007.so \
