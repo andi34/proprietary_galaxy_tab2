@@ -145,10 +145,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/lib/libnmftimer.so:system/lib/libnmftimer.so \
     vendor/samsung/golden/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/samsung/golden/proprietary/lib/libstagefright_soft_ste_mp3dec.so:system/lib/libstagefright_soft_ste_mp3dec.so \
-    vendor/samsung/golden/proprietary/lib/libstagefright_ste_mp3decode.so:system/lib/libstagefright_ste_mp3decode.so \
-    vendor/samsung/golden/proprietary/lib/libstagefright_soft_ste_aacdec.so:system/lib/libstagefright_soft_ste_aacdec.so \
-    vendor/samsung/golden/proprietary/lib/libstagefright_ste_aacdec.so:system/lib/libstagefright_ste_aacdec.so \
     vendor/samsung/golden/proprietary/lib/libste_ens_image_tuningdatabase.so:system/lib/libste_ens_image_tuningdatabase.so \
     vendor/samsung/golden/proprietary/lib/libste_ens_video_common.so:system/lib/libste_ens_video_common.so \
     vendor/samsung/golden/proprietary/lib/libste_ext_ens_image_common.so:system/lib/libste_ext_ens_image_common.so \
