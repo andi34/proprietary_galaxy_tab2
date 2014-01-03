@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libatparser.so:system/lib/libatparser.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libcordon.so:system/lib/libcordon.so \
     $(LOCAL_PATH)/proprietary/system/lib/libcsd-client.so:system/lib/libcsd-client.so \
     $(LOCAL_PATH)/proprietary/system/lib/libdiag.so:system/lib/libdiag.so \
     $(LOCAL_PATH)/proprietary/system/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
