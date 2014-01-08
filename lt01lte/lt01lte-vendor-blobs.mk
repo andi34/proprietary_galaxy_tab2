@@ -81,3 +81,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/vendor-camera.smdk4x12.so:system/lib/hw/vendor-camera.smdk4x12.so
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
+    $(LOCAL_PATH)/proprietary/system/lib/libgdmcprov.so:system/lib/libgdmcprov.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libseckeyprov.so:system/lib/libseckeyprov.so
