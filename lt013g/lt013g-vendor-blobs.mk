@@ -15,9 +15,7 @@
 LOCAL_PATH := vendor/samsung/lt013g
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/system/bin/geomagneticd:system/bin/geomagneticd \
-    $(LOCAL_PATH)/proprietary/system/bin/gpsd:system/bin/gpsd \
-    $(LOCAL_PATH)/proprietary/system/bin/orientationd:system/bin/orientationd
+    $(LOCAL_PATH)/proprietary/system/bin/gpsd:system/bin/gpsd
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
@@ -25,4 +23,4 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/vendor-camera.smdk4x12.so:system/lib/hw/vendor-camera.exynos4.so \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so
+    $(LOCAL_PATH)/proprietary/system/lib/hw/gps.default.so:system/lib/hw/gps.default.so

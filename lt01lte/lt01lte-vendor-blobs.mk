@@ -18,10 +18,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/at_distributor:system/bin/at_distributor \
     $(LOCAL_PATH)/proprietary/system/bin/diag_uart_log:system/bin/diag_uart_log \
     $(LOCAL_PATH)/proprietary/system/bin/efsks:system/bin/efsks \
-    $(LOCAL_PATH)/proprietary/system/bin/geomagneticd:system/bin/geomagneticd \
     $(LOCAL_PATH)/proprietary/system/bin/ks:system/bin/ks \
     $(LOCAL_PATH)/proprietary/system/bin/netmgrd:system/bin/netmgrd \
-    $(LOCAL_PATH)/proprietary/system/bin/orientationd:system/bin/orientationd \
     $(LOCAL_PATH)/proprietary/system/bin/qcks:system/bin/qcks \
     $(LOCAL_PATH)/proprietary/system/bin/qmiproxy:system/bin/qmiproxy \
     $(LOCAL_PATH)/proprietary/system/bin/qmuxd:system/bin/qmuxd \
@@ -81,5 +79,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/vendor-camera.smdk4x12.so:system/lib/hw/vendor-camera.smdk4x12.so
