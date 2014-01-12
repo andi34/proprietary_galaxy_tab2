@@ -84,5 +84,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
+    $(LOCAL_PATH)/proprietary/system/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
     $(LOCAL_PATH)/proprietary/system/lib/libgdmcprov.so:system/lib/libgdmcprov.so \
     $(LOCAL_PATH)/proprietary/system/lib/libseckeyprov.so:system/lib/libseckeyprov.so
