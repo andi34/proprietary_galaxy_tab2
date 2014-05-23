@@ -59,12 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
     vendor/samsung/golden/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
 
-# Display
-PRODUCT_COPY_FILES += \
-    vendor/samsung/golden/proprietary/lib/hw/hwcomposer.montblanc.so:system/lib/hw/hwcomposer.montblanc.so \
-    vendor/samsung/golden/proprietary/lib/hw/gralloc.montblanc.so:system/lib/hw/gralloc.montblanc.so \
-    vendor/samsung/golden/proprietary/lib/hw/copybit.montblanc.so:system/lib/hw/copybit.montblanc.so
-
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so \
@@ -129,7 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/lib/libshmnetlnk.so:system/lib/libshmnetlnk.so \
     vendor/samsung/golden/proprietary/lib/libsms_server.so:system/lib/libsms_server.so \
     vendor/samsung/golden/proprietary/lib/libstecom.so:system/lib/libstecom.so \
-    vendor/samsung/golden/proprietary/lib/libstelpcutils.so:system/lib/libstelpcutils.so \
     vendor/samsung/golden/proprietary/lib/libsterc.so:system/lib/libsterc.so \
     vendor/samsung/golden/proprietary/lib/libtee.so:system/lib/libtee.so \
     vendor/samsung/golden/proprietary/lib/libtrace.so:system/lib/libtrace.so
@@ -476,26 +469,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_st/pcmdump/complete.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_st/pcmdump/complete.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/pcmdump.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/pcmdump.elf4nmf \
     vendor/samsung/golden/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/preload_video.txt:system/usr/share/nmf/repository/mmdsp_8500_v2/preload_video.txt
-
-# Alsa config
-PRODUCT_COPY_FILES += \
-    vendor/samsung/golden/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
-    vendor/samsung/golden/proprietary/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
-    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
-    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/default.conf:system/usr/share/alsa/pcm/default.conf \
-    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/dmix.conf:system/usr/share/alsa/pcm/dmix.conf \
-    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/dpl.conf:system/usr/share/alsa/pcm/dpl.conf \
-    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/dsnoop.conf:system/usr/share/alsa/pcm/dsnoop.conf \
-    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/front.conf:system/usr/share/alsa/pcm/front.conf \
-    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/iec958.conf:system/usr/share/alsa/pcm/iec958.conf \
-    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/modem.conf:system/usr/share/alsa/pcm/modem.conf \
-    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/rear.conf:system/usr/share/alsa/pcm/rear.conf \
-    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/side.conf:system/usr/share/alsa/pcm/side.conf \
-    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/surround40.conf:system/usr/share/alsa/pcm/surround40.conf \
-    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/surround41.conf:system/usr/share/alsa/pcm/surround41.conf \
-    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
-    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
-    vendor/samsung/golden/proprietary/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf
 
 # LVVEFS config
 PRODUCT_COPY_FILES += \
