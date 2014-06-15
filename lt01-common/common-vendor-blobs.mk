@@ -76,10 +76,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libhdmi.so:system/lib/libhdmi.so \
     $(LOCAL_PATH)/proprietary/system/lib/libhdmiclient.so:system/lib/libhdmiclient.so \
     $(LOCAL_PATH)/proprietary/system/lib/libTVOut.so:system/lib/libTVOut.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libtvoutinterface.so:system/lib/libtvoutinterface.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libtvout_jni.so:system/lib/libtvout_jni.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libtvoutservice.so:system/lib/libtvoutservice.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libedid.so:system/lib/libedid.so
+    $(LOCAL_PATH)/proprietary/system/lib/libedid.so:system/lib/libedid.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libExynosHWCService.so:system/lib/libExynosHWCService.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libSecEDSVendorBase.so:system/lib/libSecEDSVendorBase.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libSecExternalDisplayservice.so:system/lib/libSecExternalDisplayservice.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libSecExternalDisplayinterface.so:system/lib/libSecExternalDisplayinterface.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libSecExternalDisplay_jni.so:system/lib/libSecExternalDisplay_jni.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/media/battery_batteryerror.qmg:system/media/battery_batteryerror.qmg \
