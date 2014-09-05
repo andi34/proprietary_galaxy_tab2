@@ -18,8 +18,7 @@ xtalfreq=37400
 nocrc=1
 ag0=253
 aa2g=1
-ccode=US
-regrev=46
+ccode=GB
 pa0itssit=0x20
 
 #PA parameters for 2.4GHz
