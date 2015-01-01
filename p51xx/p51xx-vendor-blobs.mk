@@ -16,7 +16,9 @@ LOCAL_PATH := vendor/samsung/p51xx
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/common/system/bin/bintvoutservice:system/bin/bintvoutservice \
+    $(LOCAL_PATH)/common/system/bin/geomagneticd:system/bin/geomagneticd \
     $(LOCAL_PATH)/common/system/bin/gpsd:system/bin/gpsd \
+    $(LOCAL_PATH)/common/system/bin/orientationd:system/bin/orientationd \
     $(LOCAL_PATH)/common/system/bin/smc.ini:system/bin/smc.ini \
     $(LOCAL_PATH)/common/system/bin/smc_pa.ift:system/bin/smc_pa.ift
 
@@ -31,6 +33,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/common/system/lib/hw/camera.vendor.piranha.so:system/lib/hw/camera.vendor.piranha.so \
     $(LOCAL_PATH)/common/system/lib/hw/gps.omap4.so:system/lib/hw/gps.omap4.so \
+    $(LOCAL_PATH)/common/system/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so \
     $(LOCAL_PATH)/common/system/lib/libtiutils.so:system/lib/libtiutils.so
 
 PRODUCT_COPY_FILES += \
