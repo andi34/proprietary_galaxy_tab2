@@ -16,5 +16,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p31xx/p3100/sbin/cbd:root/sbin/cbd
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/p31xx/p3100/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/p31xx/p3100/system/lib/libsecril-client.so:system/lib/libsecril-client.so
+    vendor/samsung/p31xx/p3100/system/lib/libsec-ril.so:system/lib/libsec-ril.so
