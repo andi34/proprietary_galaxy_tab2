@@ -19,9 +19,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/omap4-common/proprietary/system/etc/powervr.ini:system/etc/powervr.ini \
-    vendor/samsung/omap4-common/proprietary/system/vendor/bin/pvrsrvctl_SGX540_120:system/vendor/bin/pvrsrvctl_SGX540_120 \
-    vendor/samsung/omap4-common/proprietary/system/vendor/bin/pvrsrvctl_SGX544_112:system/vendor/bin/pvrsrvctl_SGX544_112 \
-    vendor/samsung/omap4-common/proprietary/system/vendor/bin/pvrsrvinit:system/vendor/bin/pvrsrvinit \
     vendor/samsung/omap4-common/proprietary/system/vendor/lib/hw/gralloc.omap4430.so:system/vendor/lib/hw/gralloc.omap4430.so \
     vendor/samsung/omap4-common/proprietary/system/vendor/lib/hw/gralloc.omap4460.so:system/vendor/lib/hw/gralloc.omap4460.so \
     vendor/samsung/omap4-common/proprietary/system/vendor/lib/hw/gralloc.omap4470.so:system/vendor/lib/hw/gralloc.omap4470.so \
