@@ -12,10 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+ifeq ($(filter p3100 p3110 p5100 p5110,$(TARGET_DEVICE)),)
 PRODUCT_PACKAGES += \
 	gralloc.omap4430 \
 	gralloc.omap4460 \
 	gralloc.omap4470
+endif
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/omap4-common/proprietary/system/etc/powervr.ini:system/etc/powervr.ini \
